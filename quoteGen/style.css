@@ -29,3 +29,8 @@ background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(48, 67, 161, 1
     background-color: #2A7B9B;
     color: white;
 }
+
+.quote button:hover{
+    transform: scale(0.95);
+    transition: 0.3s;
+}
