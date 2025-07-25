@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="card">
+      <!-- container -->
+      <div class="container">
+        <h1>Make your TODO List</h1>
+        <p>Your item</p>
+        <div class="input">
+          <input type="text" placeholder="Add your items here" />
+          <button>submit</button>
+        </div>
+        
+      </div>
+
+      <!-- items -->
+      <div class="items">
+        <h5>Your Tasks</h5>
+        <ul>
+          <li>
+            <p>React</p>
+            <div>
+              <button>
+                <i class="fa-solid fa-check" style="color: green"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-trash" style="color: red"></i>
+              </button>
+            </div>
+          </li>
+          <li>
+            <del>Gym</del>
+            <div>
+              <button>
+                <i class="fa-solid fa-check" style="color: green"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-trash" style="color: red"></i>
+              </button>
+            </div>
+          </li>
+          <li>
+            <p>HTML</p>
+            <div>
+              <button>
+                <i class="fa-solid fa-check" style="color: green"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-trash" style="color: red"></i>
+              </button>
+            </div>
+            
+          </li>
+        </ul>
+        <button class="clear">Clear All</button>
+      </div>
+      <!-- clear all -->
+    
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
