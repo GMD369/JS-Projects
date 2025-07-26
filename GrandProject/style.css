@@ -39,3 +39,38 @@ body{
     transform: scale(0.9);
     transform: all 0.5s;
 }
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin: 0px 150px;
+    margin-top: 100px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.hero-content .tag{
+    background-color: #149f39;
+    padding: 10px 30px;
+    color: white;
+}
+.hero-content h1{
+    font-size: 50px;
+    width: 70%;
+}
+.hero-content p{
+    width: 80%;
+}
+.explore_btn{
+    background-color: #FFC066;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
