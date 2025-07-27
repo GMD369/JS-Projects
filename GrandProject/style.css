@@ -205,7 +205,7 @@ body {
   .hero {
     flex-direction: column;
     padding: 0px 40px;
-    margin: 0px 15px;
+    margin: 40px 15px;
   }
   .hero-image {
     width: 400px;
