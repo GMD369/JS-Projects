@@ -59,3 +59,21 @@
       opacity: 1;
     }
   }
+
+  @media all and (max-width: 500px) {
+    .contact-us-box{
+        flex-direction: column;
+        padding: 90px 10px;
+        gap: 20px;
+    }
+    .contact-us-box .image img{
+        width: 350px;
+    }
+    .content,.content input{
+        width: 90%;
+        text-align: center;
+    }
+    .content textarea{
+        width: 90%;
+    }
+  }
