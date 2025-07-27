@@ -1,0 +1,58 @@
+.login-container{
+    background-image: url(images/login.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.login-container .box{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding:  10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(1, 1, 1, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.login-container .box h1{
+    font-family: cursive;
+}
+.login-container .box input{
+    padding: 10px 20px;
+    border: none;
+    width: 300px;
+}
+.login-container .box .forgot-password{
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+    text-align: right;
+    margin-top:- 10px;
+}
+.login-container .box button{
+    padding: 10px 100px;
+    border: none;
+    width: 300px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.login-container .signup-link{
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+    text-align: center;
+    margin-top:- 10px;
+}
+.login-container .signup-link a{
+    color: #000;
+    text-decoration: none;
+}
